@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "borderBottomLeftRadius": 40,
+        "borderBottomRightRadius": 40,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <BVLinearGradient
+      colors={
+        Array [
+          4294949839,
+          4289095121,
+        ]
+      }
+      endPoint={
+        Object {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      locations={null}
+      startPoint={
+        Object {
+          "x": 1,
+          "y": 1,
+        }
+      }
+      style={
+        Object {
+          "height": 200,
+        }
+      }
+    />
+    <SvgMock
+      height={132}
+      style={
+        Object {
+          "left": -20,
+          "position": "absolute",
+          "top": -50,
+        }
+      }
+      width={124}
+    />
+    <SvgMock
+      height={132}
+      style={
+        Object {
+          "left": "35%",
+          "position": "absolute",
+          "top": 15,
+        }
+      }
+      width={124}
+    />
+    <SvgMock
+      height={132}
+      style={
+        Object {
+          "position": "absolute",
+          "right": -40,
+          "top": -20,
+        }
+      }
+      width={124}
+    />
+  </View>,
+  <View
+    style={
+      Object {
+        "margin": -80,
+      }
+    }
+  />,
+  <View
+    style={
+      Object {
+        "height": 80,
+        "marginLeft": "10%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View>
+        <Image
+          source={
+            Object {
+              "uri": "http://www.fillmurray.com/200/200",
+            }
+          }
+          style={
+            Object {
+              "borderColor": "#FFFFFF",
+              "borderRadius": 100,
+              "borderWidth": 4,
+              "height": 52,
+              "marginRight": 15,
+              "width": 52,
+            }
+          }
+        />
+      </View>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "NunitoSans-Black",
+              "fontSize": 22,
+              "marginBottom": 4,
+            }
+          }
+        >
+          Johnny Ray
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "NunitoSans-ExtraBold",
+              "fontSize": 13,
+            }
+          }
+        >
+          My Balance: $
+          998913.61
+        </Text>
+      </View>
+    </View>
+  </View>,
+  <View
+    style={
+      Object {
+        "height": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "flex": 1,
+          "fontFamily": "NunitoSans-ExtraBold",
+          "fontSize": 16,
+          "height": 20,
+          "marginLeft": 35,
+        }
+      }
+    >
+      Transactions
+    </Text>
+  </View>,
+]
+`;

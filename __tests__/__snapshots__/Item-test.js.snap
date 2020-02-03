@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no items 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 8,
+      "elevation": 6,
+      "flex": 1,
+      "flexDirection": "column",
+      "marginHorizontal": 20,
+      "marginVertical": 8,
+      "paddingHorizontal": 15,
+      "paddingVertical": 25,
+      "shadowColor": "#9495CC",
+      "shadowOffset": Object {
+        "height": 3,
+        "width": 0,
+      },
+      "shadowOpacity": 0.27,
+      "shadowRadius": 4.65,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "color": "#1C1C1C",
+        "flex": 1,
+        "flexDirection": "row",
+        "fontSize": 14,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <SvgMock
+        height={26}
+        width={26}
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 3,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "NunitoSans-Bold",
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 3,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "textAlign": "right",
+            },
+            Object {
+              "color": "#00CE67",
+            },
+            Object {
+              "fontFamily": "NunitoSans-Bold",
+            },
+          ]
+        }
+      >
+        +
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 3,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "textAlign": "right",
+            },
+            Object {
+              "fontFamily": "NunitoSans-Bold",
+            },
+          ]
+        }
+      >
+        $
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`renders correctly when where is an item 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 8,
+      "elevation": 6,
+      "flex": 1,
+      "flexDirection": "column",
+      "marginHorizontal": 20,
+      "marginVertical": 8,
+      "paddingHorizontal": 15,
+      "paddingVertical": 25,
+      "shadowColor": "#9495CC",
+      "shadowOffset": Object {
+        "height": 3,
+        "width": 0,
+      },
+      "shadowOpacity": 0.27,
+      "shadowRadius": 4.65,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "color": "#1C1C1C",
+        "flex": 1,
+        "flexDirection": "row",
+        "fontSize": 14,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <SvgMock
+        height={26}
+        width={26}
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 3,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontFamily": "NunitoSans-Bold",
+          }
+        }
+      >
+        Till, Inc.
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 3,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "textAlign": "right",
+            },
+            Object {
+              "color": "#00CE67",
+            },
+            Object {
+              "fontFamily": "NunitoSans-Bold",
+            },
+          ]
+        }
+      >
+        +
+        1000000
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 3,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "textAlign": "right",
+            },
+            Object {
+              "fontFamily": "NunitoSans-Bold",
+            },
+          ]
+        }
+      >
+        $
+      </Text>
+    </View>
+  </View>
+  <View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#8A8A8A",
+            "marginLeft": "10%",
+          },
+          Object {
+            "fontFamily": "NunitoSans-SemiBold",
+          },
+        ]
+      }
+    >
+      Payroll
+    </Text>
+  </View>
+</View>
+`;
