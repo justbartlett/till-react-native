@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "height": 80,
+      "marginLeft": "10%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View>
+      <Image
+        source={
+          Object {
+            "uri": "http://www.fillmurray.com/200/200",
+          }
+        }
+        style={
+          Object {
+            "borderColor": "#FFFFFF",
+            "borderRadius": 100,
+            "borderWidth": 4,
+            "height": 52,
+            "marginRight": 15,
+            "width": 52,
+          }
+        }
+      />
+    </View>
+    <View>
+      <Text
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "NunitoSans-Black",
+            "fontSize": 22,
+            "marginBottom": 4,
+          }
+        }
+      >
+        Johnny Ray
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "NunitoSans-ExtraBold",
+            "fontSize": 13,
+          }
+        }
+      >
+        My Balance: $
+        998913.61
+      </Text>
+    </View>
+  </View>
+</View>
+`;

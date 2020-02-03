@@ -8,10 +8,8 @@
 
 import React from 'react';
 import {SafeAreaView, StyleSheet, StatusBar, FlatList} from 'react-native';
-
 import Item from './Components/Item';
 import Header from './Components/Header';
-import {Colors} from './Theme/Colors';
 import {TRANSACTIONS} from './Services/Transactions';
 
 const App: () => React$Node = () => {
